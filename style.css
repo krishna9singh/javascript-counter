@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #8eb9d9;
+  color: #172b3a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: Inter, sans-serif;
+  gap: 25px;
+}
+
+
+ #counter_value {
+    font-size: 80px;
+    font-weight: 300;
+    padding: 20px 150px;
+    border-radius: 15px;
+    background-color: #eaf2f8;
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
+    width: 90%;
+    max-width: 400px;
+    text-align: center
+    
+}
+
+
+
+#counter_value {
+    transition: transform 0.3s ease;
+}
+
+#counter_value:hover {
+    transform: scale(1.03);
+}
+
+
+
+  #p_counter{
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+     background-color: #eaf2f8;
+   
+
+  }
+
+
+
+#plus_button,
+#sub_button,
+#reset_button {
+    padding: 25px 25px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #eaf2f8;
+
+    transition: all 0.2s ease;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+#plus_button:hover {
+    background-color: #7bc99b;
+    transform: translateY(-3px);
+}
+
+
+
+#sub_button:hover {
+    background-color: #e58b8b;
+    transform: translateY(-3px);
+}
+
+
+
+#reset_button:hover {
+    background-color: #d0d0d0;
+    transform: translateY(-3px);
+}
+
+
+
+#plus_button:active,
+#sub_button:active,
+#reset_button:active {
+    transform: scale(0.95);
+     box-shadow: none;
+}
+
+
+
+#button_container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
